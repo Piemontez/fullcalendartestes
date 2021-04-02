@@ -1220,6 +1220,14 @@
     "@fullcalendar/common" "~5.6.0"
     tslib "^2.0.3"
 
+"@fullcalendar/list@^5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@fullcalendar/list/-/list-5.6.0.tgz#bfae6a8c6b5ddb5b9279b3d260c868db03ab973c"
+  integrity sha512-cpMjW9yUGrKkkoTWBKgo6MWH5P3MWCs3HjFxZd79oeXUY1/6ltyM2rwlSwbV8cCfEUaO+ovsRWzyh0mvSpaGDA==
+  dependencies:
+    "@fullcalendar/common" "~5.6.0"
+    tslib "^2.0.3"
+
 "@fullcalendar/react@^5.6.0":
   version "5.6.0"
   resolved "https://registry.yarnpkg.com/@fullcalendar/react/-/react-5.6.0.tgz#3ca8afe0284581f870fa29d44e178102103a4e25"

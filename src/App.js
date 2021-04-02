@@ -3,6 +3,7 @@ import FullCalendar, { formatDate } from '@fullcalendar/react'
 import dayGridPlugin from '@fullcalendar/daygrid'
 import timeGridPlugin from '@fullcalendar/timegrid'
 import interactionPlugin from '@fullcalendar/interaction'
+import listPlugin from '@fullcalendar/list';
 import { INITIAL_EVENTS, createEventId } from './event-utils'
 
 export default class App extends React.Component {
@@ -18,11 +19,11 @@ export default class App extends React.Component {
         {this.renderSidebar()}
         <div className='demo-app-main'>
           <FullCalendar
-            plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
+            plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin, listPlugin]}
             headerToolbar={{
               left: 'prev,next today',
               center: 'title',
-              right: 'dayGridMonth,timeGridWeek,timeGridDay'
+              right: 'dayGridMonth,timeGridWeek,timeGridDay,listDay,listWeek,listMonth,listYear'
             }}
             initialView='dayGridMonth'
             editable={true}
